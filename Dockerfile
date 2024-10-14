@@ -22,7 +22,7 @@ RUN luarocks install lua-resty-http && \
 COPY nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
 COPY nginx.conf /etc/openresty/nginx/nginx.conf
 
-
+#Podaj port, do którego zestawiony jest tunel Cloudflare
 EXPOSE 80
 
 
